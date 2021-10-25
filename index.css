@@ -17,6 +17,7 @@ a {
 }
 
 /* Ne6nsd */
+/* n1xJcf */
 #navbar {
     display: flex;
     height: 60px;
@@ -25,23 +26,59 @@ a {
 }
 
     /* MV3Tnb */
-    #navbar.a {
+    #left-links a:first-of-type {
+        margin-left: 15px;
+    }
+
+    #left-links{
         display:inline-block;
         padding:5px;
-        margin:0 5px;
+        margin-left:0 5px;
         color:#202124;
     }
 
-
+    /* LX3sZb */
     #nav-wrap {
         display: inline-block;
         flex-grow: 1;
-        min-width:auto;
+        min-width: auto;
         height: 48px;
         position: relative;
+        /* align-items: center; */
+        justify-content: flex-end;
     }
 
+        #nav {
+            float: right;
+            display: flex;
+            padding: 0 4px;
+            flex: 0 0 auto;
+        }
 
-    #jumbo {
+        #right-links {
+            font-family: arial,sans-serif;
+            line-height: normal;
+            padding-right: 15px;
+            align-content: center;
+
+        }
+
+            #right-links a {
+                display: inline-block;
+                padding-left: 15px;
+            }
+       
+        .icon {
+            flex: 0 1 auto;
+            padding: 4px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+                
+
+
+
+
+#jumbo {
     display: flex;
 }
