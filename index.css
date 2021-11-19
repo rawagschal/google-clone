@@ -42,9 +42,10 @@ a:first-of-type {
         #nav {
             float: right;
             display: flex;
-            padding: 0 4px;
+            padding-right: 4px;
             flex: 0 0 auto;
             justify-content: flex-end;
+            align-items: center;
         }
 
         #nav-links {
@@ -54,12 +55,13 @@ a:first-of-type {
         }
             .nav-link {
                 display: inline-block;
+                vertical-align: middle;
                 padding-left: 15px;
             }
+        
         #nav-icons {
             position:relative;
         }
-            /* might need to fix when images are added */
             .nav-icon {
                 flex: 0 1 auto;
                 padding: 4px;
