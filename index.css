@@ -24,6 +24,8 @@ a:first-of-type {
     margin-left: 15px;
 }
 
+/* NAVBAR STYLES */
+
 /* Ne6nsd */
 #navbar {
     display: flex;
@@ -68,3 +70,19 @@ a:first-of-type {
                 display: inline-block;
                 vertical-align: middle;
             }
+
+/* JUMBO STYLES */
+#jumbo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+}
+
+    #logo-wrap {
+        max-height: 92px;
+        position: relative;
+        height: 100%;
+        margin-top: auto;
+    }
